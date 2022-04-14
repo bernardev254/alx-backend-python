@@ -4,7 +4,7 @@ from typing import Sequence, Union, Any
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
-"""safety first function"""
+    """safety first function"""
     if lst:
         return any(lst[0])
     else:
