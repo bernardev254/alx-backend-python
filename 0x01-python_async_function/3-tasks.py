@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """module containing a function returning asyncio task"""
 import asyncio
-#from typing import Type
 
 
 wait_random = __import__('0-basic_async_syntax').wait_random
